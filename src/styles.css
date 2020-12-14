@@ -3,10 +3,6 @@
   text-align: center;
 }
 
-body {
-  padding: 1rem;
-}
-
 h1 {
   text-align: center;
 }
@@ -58,12 +54,28 @@ a:link {
   padding: 1rem;
 }
 
-.appsContainer {
+button {
   background-color: #164e63;
   color: #38bdf8;
-  text-align: left;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
-h3 {
+.appDetail {
+  list-style: none;
+  text-align: center;
+}
+
+.appDetailList {
   padding: 0.5rem;
+  text-align: left;
+  border: 1px solid black;
+  width: 80%;
+}
+
+.logo {
+  text-align: left;
+  display: block;
+  max-width: 100px;
 }
